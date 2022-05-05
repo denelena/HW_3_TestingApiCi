@@ -27,6 +27,6 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Если на клетке слона прочтёшь надпись «буйвол», не верь глазам своим."));
+                .body("Чебурашка", equalTo(payLoad));
     }
 }
